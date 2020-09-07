@@ -33,24 +33,25 @@ body {
     font-weight: normal;
     color: rgb(185, 82, 8);
 }
+.cdata-overlay{
+    font-family: 'Vollkorn', serif;
+    background-color: rgb(185, 82, 8);
+    height: inherit;
+    padding: 30px;
+    border-radius: 50px;
+}
+.col-sm-4 img{
+    border-radius: 10em;
+}
 
 li {
     display: inline;
     margin-right: 20px;
     font-family: 'Vollkorn', serif;
 }
-.h-buttons {
-    margin-top: 90px;
-    margin-bottom: 100px;
-}
-
-.h-buttons button {
-    border-radius: 40px;
-    color: black;
-}
 
 .menu-btn {
-    border-radius: 20px;
+    border-radius: 10em;
     margin-top: 20px;
     color: #000;
 }
@@ -69,7 +70,7 @@ figcaption {
 
 #list li {
     font-size: 24px;
-    font-family: system-ui, serif;
+    font-family: 'Vollkorn', serif;
 }
 .order-summary h1, .summary, .contact {
     color: #000;
@@ -83,11 +84,11 @@ figcaption {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color: #ffbf00;
+    background-color: rgb(185, 82, 8);
     outline: none;
     padding: 12.5px 13px;
     border: none;
-    border-radius: 33px;
+    border-radius: 30px;
     font-size: 14px;
 }
 
@@ -110,7 +111,7 @@ h4 {
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(185, 82, 8);
     border-radius: 20px;
 }
 
@@ -152,7 +153,7 @@ h4 {
     background-repeat: no-repeat;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
 }
 #push {
@@ -166,24 +167,24 @@ h4 {
 }
 .landing-text h1 {
     font-family: 'Vollkorn', serif;
-    font-size: 60px;
+    font-size: 50px;
 }
 a {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
-}
-figure img {
-    height: 260px;
-    width: 260px;
 }
 
 .welcome-txt {
-    margin-top: 160px;
+    margin-top: 70px;
+    
 }
 
+.text-center{
+    font-family: 'Vollkorn', serif;
+}
 .txt {
-    font-family: system-ui, cursive;
+    font-family: 'Vollkorn', serif;
     color: black;
     font-size: 23px;
 }
@@ -192,18 +193,16 @@ figure img {
     font-size: 50px;
     font-family: 'Vollkorn', serif;
 }
+.col-sm-6 img{
+    border-radius: 10em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    
+}
 
 .welcome {
     padding-top: 30px;
-}
-
-.rads {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fab {
-    margin: 60px 15px 0 15px;
 }
 
 /* Collapse nav start*/
@@ -236,22 +235,10 @@ figure img {
     .menu-overlay {
         width: 100%;
         height: inherit;
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .welcome-img {
-        margin-left: 20px;
-        margin-bottom: 10px;
-        height: 300px;
-        width: 270px;
     }
 
     .welcome {
         padding-top: 10px;
-    }
-
-    .cdata {
-        padding: 10px 5px 10px 5px;
     }
 
 }
@@ -283,11 +270,6 @@ figure img {
 
 }
 /** Media Queries **/
-
-.col-sm-6 img{
-    border-radius: 10em;
-}
-
 
 .login-buttons {
     margin-top: 90px;

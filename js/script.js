@@ -2,7 +2,7 @@ $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
 //Get inputs
-    $("#checkout").click(function () {
+$("#checkout").click(function () {
         let flavour = $(".flavour option:selected").val();
         let size = $("#size option:selected").val();
         let crust = $("#crust option:selected").val();
@@ -278,7 +278,7 @@ $(function () {
                     }
                     break;
     
-        switch (topping) {
+      switch (topping) {
             case topping = "chicken":
                 totalPrice = totalPrice + 200;
                 break;
@@ -318,7 +318,7 @@ $(function () {
             + newOrder.t + "<br>" + " Number of pizzas :    "
             + newOrder.n + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
-    });
+    
 
     //Deliver
     $(".deliver").click(function () {
@@ -338,4 +338,4 @@ $(function () {
     $(function () {
         $.scrollify.move('#sum-order');
     });
-});
+}
