@@ -25,4 +25,4 @@ Le Rustique Pizza is an industry leader in the quick service pizza game.Serving 
 * Jquery
 
 ## License
-MIT LICENSE © 2020 **Rustique Uwimpaye**
+MIT LICENSE Copyright © 2020 **Rustique Uwimpaye**
