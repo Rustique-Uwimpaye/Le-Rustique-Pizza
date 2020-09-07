@@ -28,11 +28,9 @@
      <h1 id="pizza" class="">Le <span id="span-text">Rustique</span> Pizza</h1>
      <div class="navigate">
          <ul class="nav-items">
-             <li><a href="#about">About us</a></li>
+             <li><a href="#welcome">About us</a></li>
              <li><a href="#menu">Menu</a></li>
-             <li><a href="#crust">Crust</a></li>
-             <li><a href="#toppings">Toppings</a></li>
-             <li><a href="#order">Orders</a></li>
+             <li><a href="#order">Order</a></li>
              <li><a href="#contact">Contact Us</a></li>
          </ul>
      </div>
@@ -42,32 +40,184 @@
      <div class="overlay">
          <div id="push"></div>
          <div class="landing-text">
-             <h1 class="text-white text-center"><span class="pizz">Welcome to Le</span><span class="exc">Rustique</span> Pizza</h1>
-             <h2 class="text-white text-center">Le Rustique Pizza  is an industry leader in the quick service pizza game.Serving hot oven-fresh pizza with its signature all-natural tomato sauce and using only the freshest ingredients, Le Rustique Pizza is easily one of the first choices in quick service pizza in Africa.</h2>
+             <h1 class="text-white text-center"><span class="pizz">Welcome to Le</span><span class="span-text"> Rustique</span> Pizza</h1>
+             <h2 class="text-white text-center">BEST PIZZA SHOP IN TOWN!</h2>
          </div>
-         <div class="login-buttons text-center">
-             <a href="#welcome">
-                 <button class="btn bg-info floater  infinite delay-2s">Log in</button>
+         <div class="join-buttons text-center">
+             <a href="#menus">
+                 <button class="btn bg-info floater  infinite delay-2s">Join Us</button>
              </a>
-            <div class="socials">
-                 <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
-                 <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
-                 <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
-                 <a href=""><span class="fab fa-phone icon_phone"></span></a>
-            </div>
         </div>
      </div>
  </div>
+ <!--Welcome Section-->
+ <div class="welcome" id="welcome">
+     <br><br><br><br>
+     <div class="col-sm-12">
+         <div class="row">
+             <div class="col-sm-6">
+                 <img src="images/Capture pizza logo0.PNG" alt="Le Rustique Pizza" class="welcome-img">
+             </div>
+             <div class="col-md-6 welcome-txt">
+                 <h1 class="text-center txt txt-big">Welcome to <span class="pizza">Le </span><span class="description">Rustique</span> Pizza</h1>
+                 <p class="text-center txt">Le Rustique Pizza  is an industry leader in the quick service pizza game.Serving hot oven-fresh pizza with its signature all-natural tomato sauce and using only the freshest ingredients, Le Rustique Pizza is easily one of the first choices in quick service pizza in Africa.</p>
+                 <p class="text-center txt">Order your pizza and we wil deliver to your location.</p>
+                 <a href="#menu">
+                    <button class="btn bg-info mx-auto d-block menu-btn">Go to Menu</button>
+                 </a>
+             </div>
+         </div>
+     </div>
+ </div>
 
+ <!--Start Content-->
 
+<div id="menus"></div>
+<br>
+<div class="menu col-md-12">
+    <div class="menu-overlay">
+        <h1 class="text-center text-white" id="menu">Menu</h1>
+        <div class="pizza-menu row text-center">
+            <figure class="col-sm-4">
+                <img src="images/Vegie Pizza 2.jpeg" alt="small-pizza" class="wiggle">
+                <figcaption class="text-white">Regular<br> /= 500 Ksh</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="images/Pepperoni Pizza3.jpeg" alt="medium-pizza" class="wiggle">
+                <figcaption class="text-white">Medium<br> /= 830 Ksh</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="images/neapolitan pizza.jpeg" alt="large-pizza" class="wiggle">
+                <figcaption class="text-white">Large<br> /= 1050 Ksh</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="images/Chicken Pizza7.jpeg" alt="Mega-pizza" class="wiggle">
+                <figcaption class="text-white">Mega<br> /= 1270 Ksh</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
 
+<div class="orders" id="order">
+    <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+    <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 order-overlay text-center">
+            <form class="col-sm-6 offset-sm-3 text-center">
+                <label>Choose your pizza Flavour</label>
+                <select class="custom-select custom-select-md mb-3 flavour" required>
+                    <option value="pepperoni">Pepperoni Pizza</option>
+                    <option value="bbq-steak">BBQ steak Pizza</option>
+                    <option value="cheese">Cheese Pizza</option>
+                    <option value="chiken-bbq">Chicken BBQ Pizza</option>
+                    <option value="vegie">Vegie Pizza</option>                   
+                </select>
+                <label>Choose your preferred Size</label>
+                <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <option value="regular">Regular</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="mega">Mega</option>
+                </select>
+                <label for="crust">Choose your favourite Crust</label>
+                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <option value="crispy">Crispy /= 100 Ksh</option>
+                    <option value="stuffed">Stuffed /= 150 Ksh</option>
+                    <option value="gulten-free">Gluten-free /= 120 Ksh</option>
+                    <option value="vegan-free">Vegan-free /= 100 Ksh</option>
+                    <option value="neapolitan">Neapolitan /= 200 Ksh</option>
+                </select>
+                <label>Choose your favourite Toppings</label>
+                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <option value="chicken">Chicken /= 200 Ksh</option>
+                    <option value="onions">Onions /= 50 Ksh</option>
+                    <option value="sausage">Sausage /= 100 Ksh</option>
+                    <option value="extra-cheese">Extra Cheese /= 100 Ksh</option>
+                    <option value="bacon">Bacon /= 200 Ksh</option>
+                </select>
+                <label for="number">Number of Pizzas</label>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+            </form>
+            <a href="#summary">
+                <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Checkout
+                </button>
+            </a>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
 
+<div class="order-summary" id="sum-order">
+    <h1 class="text-center" id="summary">Order Summary</h1>
+    <h2 class="text-center summary">Your order is as follow</h2>
+    <ol id="list" class="text-center sum">
+    </ol>
+    <div class="cdata-overlay">
+        <div class="customerdata row">
+            <div class="col-sm-3"></div>
+            <form action="" class="form-group col-sm-6 data">
+                <input type="text" class="form-control cdata" placeholder="Enter your name...">
+                <input type="text" class="form-control cdata" placeholder="Enter your phone number...">
+                <input type="text" class="form-control cdata" placeholder="Enter the location...">
+                <button class="btn bg-info text-center d-block mx-auto go">Complete Order</button>
+            </form>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <div class="d-block mx-auto text-center">
+        <button class='deliver'>Compelte Order</button>
+        <button class='delivernot'>Pick Up</button>
+    </div>
+</div>
+ <!-- footer -->
+ <div class="footer" id="contact">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h1 class="logo-text"> Le<span> Rustique </span> Pizza</h1>
+            <p>BEST PIZZA SHOP IN TOWN!</p>
+            <div class="contact">
+                <span><i class="fas fa-phone"></i> &nbsp; 205-201-294</span>
+                <span><i class="fas fa-envelope"></i> &nbsp; info@lerustiquepizza.com</span>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://goo.gl/maps/qVGwwkgEAUV6BYxdA"><i class="fab fas fa-map-marker-alt"></i></a>
+            </div>
+        </div>
 
+        <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <br>
+            <ul>
+                <a href="#welcome"><li>About us</li></a>
+                <a href="#menu"><li>Menu</li></a>
+                <a href="#order"><li>Order</li></a>
+                <a href="#contact"><li>Contact Us</li></a>
+            </ul>
+        </div>
 
-
-
-
-
-    
+        <div class="footer-section contact-form">
+            <h2>Contact us</h2>
+            <br>
+            <form action="#" method="post">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                <button type="submit" class="btn btn-big">
+                    <i class="fas fa-envelope"></i>
+                    send
+                </button>
+            </form>
+        </div>   
+    </div>   
+    <div class="footer-bottom">
+        <small>&copy;Copyright 2020 Le Rustique Pizza | Designed by Rustique Uwimpaye</small>
+     </div>
+  </div>
 </body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scrollify.js"></script>
 </html>
