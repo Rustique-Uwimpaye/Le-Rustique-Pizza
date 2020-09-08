@@ -32,7 +32,7 @@ $("#checkout").click(function () {
                         } else if (crust === "neapolitan") {
                             totalPrice =(price * number)+ 200;
                         } else {
-                            totalPrice = (price * number) + 320;
+                            totalPrice = (price * number) + 650;
                         }
                         break;
                         case size = "medium":
@@ -48,7 +48,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 930;
                             }
                             break;
                         case size = "large":
@@ -64,7 +64,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 1150;
                             }
                             break;
                     }
@@ -84,7 +84,7 @@ $("#checkout").click(function () {
                         } else if (crust === "neapolitan") {
                             totalPrice =(price * number)+ 200;
                         } else {
-                            totalPrice = (price * number) + 320;
+                            totalPrice = (price * number) + 650;
                         }
                         break;
                         case size = "medium":
@@ -100,7 +100,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 930;
                             }
                             break;
                         case size = "large":
@@ -116,7 +116,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 1150;
                             }
                             break;
                     }
@@ -136,7 +136,7 @@ $("#checkout").click(function () {
                         } else if (crust === "neapolitan") {
                             totalPrice =(price * number)+ 200;
                         } else {
-                            totalPrice = (price * number) + 320;
+                            totalPrice = (price * number) + 650;
                         }
                         break;
                         case size = "medium":
@@ -152,7 +152,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 930;
                             }
                             break;
                         case size = "large":
@@ -168,7 +168,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 1150;
                             }
                             break;
                     }
@@ -188,7 +188,7 @@ $("#checkout").click(function () {
                         } else if (crust === "neapolitan") {
                             totalPrice =(price * number)+ 200;
                         } else {
-                            totalPrice = (price * number) + 320;
+                            totalPrice = (price * number) + 650;
                         }
                         break;
                         case size = "medium":
@@ -204,7 +204,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 930;
                             }
                             break;
                         case size = "large":
@@ -220,7 +220,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 1100;
                             }
                             break;
                     }
@@ -240,7 +240,7 @@ $("#checkout").click(function () {
                         } else if (crust === "neapolitan") {
                             totalPrice =(price * number)+ 200;
                         } else {
-                            totalPrice = (price * number) + 320;
+                            totalPrice = (price * number) + 650;
                         }
                         break;
                         case size = "medium":
@@ -256,7 +256,7 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 930;
                             }
                             break;
                         case size = "large":
@@ -272,13 +272,12 @@ $("#checkout").click(function () {
                             } else if (crust === "neapolitan") {
                                 totalPrice =(price * number)+ 200;
                             } else {
-                                totalPrice = (price * number) + 320;
+                                totalPrice = (price * number) + 1150;
                             }
                             break;
                     }
                     break;
-    
-      switch (topping) {
+     switch (topping) {
             case topping = "chicken":
                 totalPrice = totalPrice + 200;
                 break;
