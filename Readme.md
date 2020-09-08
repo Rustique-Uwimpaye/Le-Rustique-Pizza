@@ -15,6 +15,7 @@ Le Rustique Pizza is an industry leader in the quick service pizza game.Serving 
 
 ## Screenshot
 
+![Capture pizza](https://user-images.githubusercontent.com/68597043/92481934-e3a9c380-f19b-11ea-87df-ad105c75a3a2.PNG)
 
 ## Technologies
 
